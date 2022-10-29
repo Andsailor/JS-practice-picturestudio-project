@@ -50,8 +50,6 @@ const modal = () => {
         if (!display) {
             document.querySelector('.popup-consultation').style.display = 'block';
             document.querySelector('.popup-consultation').classList.add('animated', 'fadeIn');
-            document.body.style.overflow = "hidden";
-            document.body.style.marginRight = `${scroll}px`;
         }
         }, time);              
     }
